@@ -1,11 +1,11 @@
 :root {
   --paper: #f3eedf;
-  --ink: #2b4034;
-  --sea: #365b4b;
-  --sea-light: #dce2c9;
+  --ink: #284f65;
+  --sea: #bbd3df;
+  --sea-light: #bbd3df;
   --sun: #f69650;
-  --terracotta: #d98b68;
-  --line: rgba(43, 64, 52, .22);
+  --terracotta: #f09c91;
+  --line: rgba(40, 79, 101, .22);
   --sans: "Jost", sans-serif;
   --display: "Fraunces", Georgia, serif;
 }
@@ -87,7 +87,6 @@ a { color: inherit; }
   letter-spacing: 0;
   text-transform: uppercase;
 }
-.eyebrow::before { color: var(--sun); content: "✳"; font-size: 14px; }
 h1, h2, p { margin-top: 0; }
 h1 {
   max-width: 720px;
@@ -132,7 +131,7 @@ h1 em { color: #f09c91; font-weight: 500; }
   min-height: 84px;
   padding: 0 9vw;
   background: var(--sea);
-  color: var(--paper);
+  color: var(--ink);
   gap: 24px;
 }
 .intro-strip p { margin: 0; font-size: 11px; font-weight: 600; text-transform: uppercase; }
@@ -187,7 +186,6 @@ h1 em { color: #f09c91; font-weight: 500; }
   font-weight: 700;
   text-transform: uppercase;
 }
-.section-label::before { color: var(--sun); content: "✳"; font-size: 13px; }
 h2 {
   margin-bottom: 22px;
   font-family: var(--display);
@@ -196,7 +194,7 @@ h2 {
   letter-spacing: 0;
   line-height: 1.1;
 }
-.about-copy p:not(.section-label) { max-width: 410px; color: #536661; font-size: 14px; line-height: 1.85; }
+.about-copy p:not(.section-label) { max-width: 410px; color: #4d6a78; font-size: 14px; line-height: 1.85; }
 .inline-link {
   display: inline-flex;
   align-items: center;
@@ -240,7 +238,7 @@ h2 {
 .event-details div { padding: 17px 20px; border-right: 1px solid rgba(43, 64, 52, .25); }
 .event-details div:first-child { padding-left: 0; }
 .event-details div:last-child { border-right: 0; }
-.event-details dt { margin-bottom: 7px; color: #475640; font-size: 10px; font-weight: 700; text-transform: uppercase; }
+.event-details dt { margin-bottom: 7px; color: #405e6b; font-size: 10px; font-weight: 700; text-transform: uppercase; }
 .event-details dd { margin: 0; font-family: var(--display); font-size: clamp(18px, 2vw, 24px); line-height: 1.25; }
 .event-notes {
   display: grid;
@@ -248,7 +246,7 @@ h2 {
   margin: 0 auto 30px;
   padding-left: 20px;
   gap: 11px;
-  color: #314638;
+  color: #2e4c59;
   font-size: 14px;
   line-height: 1.65;
   text-align: left;
@@ -281,7 +279,7 @@ footer {
   padding: 0 6.3vw;
   background: var(--paper);
 }
-footer p { margin: 0; color: #536661; font-size: 10px; }
+footer p { margin: 0; color: #4d6a78; font-size: 10px; }
 footer a { font-size: 10px; font-weight: 700; text-decoration: none; }
 @keyframes arrive { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: translateY(0); } }
 
